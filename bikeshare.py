@@ -9,7 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
 <<<<<<< HEAD
-MONTHS = ['all','january', 'february', 'march', 'april', 'may', 'june']
+MONTHS = ['all','January', 'February', 'March', 'April', 'May', 'June']
 =======
 MONTHS = ['all','January', 'February', 'March', 'April', 'May', 'June']
 >>>>>>> refactoring
