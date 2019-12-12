@@ -31,7 +31,7 @@ def get_filters():
         city = input('Select a city by typing its name : (Chicago) - (NewYorkCity) - (Washington)\n')
         if city.lower() in ['chicago', 'newyorkcity','washington']:
             break
-            print("wrong entry!")
+            print("Wrong Entry!")
             continue
         
        
@@ -41,7 +41,7 @@ def get_filters():
      month = input('\nSelect a month by typing its name : (January) - (February) - (March) - (April) - (May) - (June)\n')        
      if month.lower() in ['all','january', 'february', 'march', 'april', 'may', 'june']:
             break
-            print("wrong entry!")
+            print("Wrong Entry!")
 
 
 
