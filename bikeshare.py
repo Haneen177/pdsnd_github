@@ -210,6 +210,24 @@ def display_data(df):
             displayEnd = input("If you want to stop enter (stop) otherwise enter (no): ")
             if displayEnd.lower() == 'stop':
                 break
+
+            def display_data(df):
+    start_point = 0
+    position = 5
+    display = input("Do you want to see the raw data? \nEnter (yes) or (no) ")
+    if display.lower() == 'yes':
+        while position <= df.shape[0] - 1:
+            print(df.iloc[start_loc:end_loc,:])
+            start_point=start_point+5
+            position=position+5
+            
+            displayEnd = input("If you want to stop enter (stop) otherwise enter (no): ")
+            if displayEnd.lower() == 'stop':
+                break
+            
+
+
+            
             
     
 def main():
